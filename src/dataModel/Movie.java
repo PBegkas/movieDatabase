@@ -29,5 +29,7 @@ public class Movie {
 	private ArrayList<Actor> actors;
 	private ArrayList<Genre> genres;
 	private ArrayList<String> locations;
+	private ArrayList<UserTag> userTags = null;
+	private ArrayList<UserRating> userRatings = null;
 
 }
