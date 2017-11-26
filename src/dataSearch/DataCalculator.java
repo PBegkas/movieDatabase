@@ -1,5 +1,7 @@
 package dataSearch;
 
+import dataLoading.DataLoader;
+
 public class DataCalculator {
 	//Search for a movie by a given int ID
 	public DataCalculator(DataLoader a) {
