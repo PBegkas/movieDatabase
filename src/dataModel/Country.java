@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Country {
 	
-	String country;
-	ArrayList<Movie> movies;
+	private String country;
+	private ArrayList<Movie> movies;
 	
 	public Country(String c) {
 		

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Genre {
 	
-	String genre;
-	ArrayList<Movie> movies;
+	private String genre;
+	private ArrayList<Movie> movies;
 	
 	public Genre(String g) {
 		

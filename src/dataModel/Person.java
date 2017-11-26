@@ -3,9 +3,9 @@ package dataModel;
 import java.util.ArrayList;
 
 public abstract class Person {
-	String name;
-	String id;
-	ArrayList<Movie> movies;
+	private String name;
+	private String id;
+	private ArrayList<Movie> movies;
 	
 	public Person(String n, String i ) {
 		
