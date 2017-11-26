@@ -28,6 +28,6 @@ public class Movie {
 	Director director;
 	ArrayList<Actor> actors;
 	ArrayList<Genre> genres;
-	String[] locations;
+	ArrayList<String> locations;
 
 }
