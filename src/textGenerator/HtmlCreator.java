@@ -1,4 +1,5 @@
 package textGenerator;
-public class HtmlCreator {
+
+public class HtmlCreator extends FileCreator {
 
 }

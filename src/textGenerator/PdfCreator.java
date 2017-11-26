@@ -1,5 +1,5 @@
 package textGenerator;
 
-public class PdfCreator {
+public class PdfCreator extends FileCreator {
 
 }

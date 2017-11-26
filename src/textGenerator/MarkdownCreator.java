@@ -1,5 +1,5 @@
 package textGenerator;
 
-public class MarkdownCreator {
+public class MarkdownCreator extends FileCreator {
 
 }
