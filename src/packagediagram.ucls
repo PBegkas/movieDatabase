@@ -27,9 +27,9 @@
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <dependency id="6">    
-    <bendpoint x="513" y="47"/>    
+    <bendpoint x="93" y="49"/>    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="4"/>  
+    <end type="TARGET" refId="5"/>  
   </dependency>  
   <dependency id="7">    
     <bendpoint x="308" y="197"/>    
@@ -37,9 +37,9 @@
     <end type="TARGET" refId="2"/>  
   </dependency>  
   <dependency id="8">    
-    <bendpoint x="93" y="49"/>    
+    <bendpoint x="513" y="47"/>    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="4"/>  
   </dependency>  
   <dependency id="9">    
     <bendpoint x="400" y="377"/>    
