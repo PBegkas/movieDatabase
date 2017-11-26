@@ -1,10 +1,11 @@
 package dataModel;
 
+import java.util.ArrayList;
+
 public class Country {
 	
 	String country;
-	//TO-DO decide the type
-	int[] movies;
+	ArrayList<Movie> movies;
 	
 	public Country(String c) {
 		

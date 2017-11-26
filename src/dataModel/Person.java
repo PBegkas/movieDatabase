@@ -1,10 +1,11 @@
 package dataModel;
 
+import java.util.ArrayList;
+
 public abstract class Person {
 	String name;
 	String id;
-	//TO-DO decide the type
-	int[] movies;
+	ArrayList<Movie> movies = new ArrayList<Movie>();
 	
 	public Person(String n, String i ) {
 		

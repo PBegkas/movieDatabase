@@ -1,10 +1,11 @@
 package dataModel;
 
+import java.util.ArrayList;
+
 public class Genre {
 	
 	String genre;
-	//TO-DO decide the type
-	int[] movies;
+	ArrayList<Movie> movies;
 	
 	public Genre(String g) {
 		

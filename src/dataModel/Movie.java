@@ -1,5 +1,7 @@
 package dataModel;
 
+import java.util.ArrayList;
+
 public class Movie {
 	String title;
 	int id;
@@ -24,9 +26,8 @@ public class Movie {
 	String rtPictureURL;
 	Country country;
 	Director director;
-	//TO-DO rework the lists
-	Actor[] actors;
-	Genre[] genres;
+	ArrayList<Actor> actors;
+	ArrayList<Genre> genres;
 	String[] locations;
 
 }
