@@ -100,8 +100,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="12" language="java" name="textOutput.MarkdownCreator" project="movieDatabase" 
-    file="/movieDatabase/src/textOutput/MarkdownCreator.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="12" language="java" name="textGenerator.MarkdownCreator" project="movieDatabase" 
+    file="/movieDatabase/src/textGenerator/MarkdownCreator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="81" width="127" x="432" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -109,8 +109,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="13" language="java" name="textOutput.PdfCreator" project="movieDatabase" 
-    file="/movieDatabase/src/textOutput/PdfCreator.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="13" language="java" name="textGenerator.PdfCreator" project="movieDatabase" 
+    file="/movieDatabase/src/textGenerator/PdfCreator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="81" width="87" x="174" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -118,8 +118,8 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="14" language="java" name="textOutput.TextCreator" project="movieDatabase" 
-    file="/movieDatabase/src/textOutput/TextCreator.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="14" language="java" name="textGenerator.TextCreator" project="movieDatabase" 
+    file="/movieDatabase/src/textGenerator/TextCreator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="81" width="91" x="301" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -127,58 +127,74 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="15">    
+  <generalization id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="17">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="16" name="director"/>      
-      <multiplicity id="17" minimum="0" maximum="1"/>    
+      <attribute id="18" name="director">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="18">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="19" name="actors"/>      
-      <multiplicity id="20" minimum="0" maximum="2147483647"/>    
-    </end>    
-    <end type="TARGET" refId="5" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
   <association id="21">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="22" name="genres"/>      
-      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
+      <attribute id="22" name="genres">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <generalization id="24">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <generalization id="25">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="10"/>  
   </generalization>  
-  <generalization id="26">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="10"/>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
   </generalization>  
-  <association id="27">    
+  <association id="26">    
     <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="28" name="country"/>      
-      <multiplicity id="29" minimum="0" maximum="1"/>    
+      <attribute id="27" name="actors">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="30" name="country">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="30">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <generalization id="31">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

@@ -1,4 +1,4 @@
-package textOutput;
+package textGenerator;
 
 public class MarkdownCreator {
 
