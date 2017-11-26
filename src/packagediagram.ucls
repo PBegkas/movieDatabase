@@ -3,44 +3,48 @@
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <package id="1" language="java" name="userInterface" project="movieDatabase" file="/movieDatabase/src/userInterface" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="64" width="119" x="136" y="9"/>    
+    <position height="64" width="119" x="354" y="10"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="2" language="java" name="dataLoading" project="movieDatabase" file="/movieDatabase/src/dataLoading" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="72" width="136" x="93" y="281"/>    
+    <position height="72" width="136" x="240" y="267"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="3" language="java" name="dataModel" project="movieDatabase" file="/movieDatabase/src/dataModel" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="71" width="109" x="236" y="395"/>    
+    <position height="71" width="109" x="475" y="337"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="4" language="java" name="dataSearch" project="movieDatabase" file="/movieDatabase/src/dataSearch" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="72" width="121" x="256" y="177"/>    
+    <position height="72" width="121" x="452" y="153"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="5" language="java" name="textGenerator" project="movieDatabase" file="/movieDatabase/src/textGenerator" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="74" width="129" x="63" y="117"/>    
+    <position height="74" width="129" x="28" y="105"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <dependency id="6">    
+    <bendpoint x="513" y="47"/>    
     <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="5"/>  
+    <end type="TARGET" refId="4"/>  
   </dependency>  
   <dependency id="7">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <dependency id="8">    
+    <bendpoint x="308" y="197"/>    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
+  <dependency id="8">    
+    <bendpoint x="93" y="49"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
   <dependency id="9">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="4"/>  
+    <bendpoint x="400" y="377"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
   </dependency>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
