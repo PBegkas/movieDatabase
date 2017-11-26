@@ -1,5 +1,5 @@
 package dataLoading;
-import dataModel.Actor;
-public abstract class DataLoader {
 
+public abstract class DataLoader {
+	
 }

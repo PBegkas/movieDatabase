@@ -1,5 +1,8 @@
 package dataLoading;
 
-public class GenreLoader extends DataLoader {
+import dataModel.Genre;
 
+public class GenreLoader extends DataLoader {
+	
+	private DataLists<Genre> genres;
 }

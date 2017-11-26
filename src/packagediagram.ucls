@@ -3,27 +3,27 @@
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <package id="1" language="java" name="userInterface" project="movieDatabase" file="/movieDatabase/src/userInterface" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="64" width="119" x="354" y="10"/>    
+    <position height="64" width="119" x="307" y="17"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="2" language="java" name="dataLoading" project="movieDatabase" file="/movieDatabase/src/dataLoading" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="72" width="136" x="240" y="267"/>    
+    <position height="72" width="136" x="440" y="311"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="3" language="java" name="dataModel" project="movieDatabase" file="/movieDatabase/src/dataModel" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="71" width="109" x="475" y="337"/>    
+    <position height="71" width="109" x="174" y="312"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="4" language="java" name="dataSearch" project="movieDatabase" file="/movieDatabase/src/dataSearch" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="72" width="121" x="452" y="153"/>    
+    <position height="72" width="121" x="451" y="152"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <package id="5" language="java" name="textGenerator" project="movieDatabase" file="/movieDatabase/src/textGenerator" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="74" width="129" x="28" y="105"/>    
+    <position height="74" width="129" x="157" y="133"/>    
     <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
   </package>  
   <dependency id="6">    

@@ -1,5 +1,8 @@
 package dataLoading;
 
-public class CountryLoader extends DataLoader {
+import dataModel.Country;
 
+public class CountryLoader extends DataLoader {
+	
+	private DataLists<Country> countries;
 }

@@ -1,5 +1,8 @@
 package dataLoading;
 
-public class DirectorsLoader extends DataLoader {
+import dataModel.Director;
 
+public class DirectorsLoader extends DataLoader {
+	
+	private DataLists<Director> directors;
 }

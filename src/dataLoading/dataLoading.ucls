@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="dataLoading.ActorLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/ActorLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="95" x="172" y="158"/>    
+    <position height="99" width="147" x="218" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="dataLoading.CountryLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/CountryLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="108" x="602" y="158"/>    
+    <position height="99" width="172" x="736" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="dataLoading.DataLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/DataLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="91" x="694" y="37"/>    
+    <position height="81" width="91" x="836" y="37"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="dataLoading.DirectorsLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/DirectorsLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="117" x="445" y="158"/>    
+    <position height="99" width="170" x="1647" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="dataLoading.GenreLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/GenreLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="98" x="307" y="158"/>    
+    <position height="99" width="153" x="1454" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="dataLoading.LocationsLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/LocationsLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="120" x="1376" y="158"/>    
+    <position height="99" width="160" x="536" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="dataLoading.MovieLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/MovieLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="97" x="1239" y="158"/>    
+    <position height="99" width="151" x="1263" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="dataLoading.MovieTagsLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/MovieTagsLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="124" x="750" y="158"/>    
+    <position height="81" width="124" x="948" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,7 +75,7 @@
   </class>  
   <class id="9" language="java" name="dataLoading.TagsLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/TagsLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="91" x="41" y="158"/>    
+    <position height="81" width="91" x="405" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,7 +84,7 @@
   </class>  
   <class id="10" language="java" name="dataLoading.UserRatingsLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/UserRatingsLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="134" x="914" y="158"/>    
+    <position height="81" width="134" x="44" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,53 +93,173 @@
   </class>  
   <class id="11" language="java" name="dataLoading.UserTagLoader" project="movieDatabase" 
     file="/movieDatabase/src/dataLoading/UserTagLoader.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="111" x="1088" y="158"/>    
+    <position height="81" width="111" x="1112" y="158"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="12">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="13">    
-    <end type="SOURCE" refId="11"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="16">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
+  <class id="12" language="java" name="dataModel.Actor" project="movieDatabase" 
+    file="/movieDatabase/src/dataModel/Actor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="142" x="218" y="1025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="dataModel.Country" project="movieDatabase" 
+    file="/movieDatabase/src/dataModel/Country.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="100" x="1088" y="1025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="dataModel.Director" project="movieDatabase" 
+    file="/movieDatabase/src/dataModel/Director.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="131" x="1647" y="1025"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="dataModel.Genre" project="movieDatabase" 
+    file="/movieDatabase/src/dataModel/Genre.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="92" x="1303" y="297"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="dataModel.Movie" project="movieDatabase" 
+    file="/movieDatabase/src/dataModel/Movie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="549" width="199" x="1263" y="436"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
   <generalization id="17">    
-    <end type="SOURCE" refId="10"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="18">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="19">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="20">    
-    <end type="SOURCE" refId="9"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
-  <generalization id="21">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="3"/>  
   </generalization>  
+  <dependency id="18">    
+    <bendpoint x="227" y="297"/>    
+    <bendpoint x="227" y="436"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="25">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="26" name="movies"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="31">    
+    <bendpoint x="1656" y="297"/>    
+    <bendpoint x="1656" y="436"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="32">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="33" name="country"/>      
+      <multiplicity id="34" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="35">    
+    <bendpoint x="921" y="297"/>    
+    <bendpoint x="921" y="436"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="36">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="37" name="movies"/>      
+      <multiplicity id="38" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="39">    
+    <bendpoint x="1272" y="297"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="40">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="41" name="genres"/>      
+      <multiplicity id="42" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="44" name="director"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="47">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="48" name="actors"/>      
+      <multiplicity id="49" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
