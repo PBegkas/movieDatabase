@@ -1,10 +1,7 @@
 package dataModel;
 
-public class Director extends Person{
+public class Director extends movieInfo{
 
-	public Director(String n, String i) {
-		super(n, i);
-		// TODO Auto-generated constructor stub
-	}
+	String id;
 
 }

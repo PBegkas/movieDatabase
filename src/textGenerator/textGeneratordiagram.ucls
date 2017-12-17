@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
   realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="textGenerator.FileCreator" project="movieDatabase" 
-    file="/movieDatabase/src/textGenerator/FileCreator.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="393" y="114"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="textGenerator.HtmlCreator" project="movieDatabase" 
+  <class id="1" language="java" name="textGenerator.HtmlCreator" project="movieDatabase" 
     file="/movieDatabase/src/textGenerator/HtmlCreator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="344" y="395"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -19,7 +10,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="textGenerator.MarkdownCreator" project="movieDatabase" 
+  <class id="2" language="java" name="textGenerator.MarkdownCreator" project="movieDatabase" 
     file="/movieDatabase/src/textGenerator/MarkdownCreator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="172" y="340"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -28,7 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="textGenerator.PdfCreator" project="movieDatabase" 
+  <class id="3" language="java" name="textGenerator.PdfCreator" project="movieDatabase" 
     file="/movieDatabase/src/textGenerator/PdfCreator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="516" y="420"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -37,7 +28,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="textGenerator.TextCreator" project="movieDatabase" 
+  <class id="4" language="java" name="textGenerator.TextCreator" project="movieDatabase" 
     file="/movieDatabase/src/textGenerator/TextCreator.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="683" y="372"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -46,21 +37,30 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+  <class id="5" language="java" name="textGenerator.FileCreator" project="movieDatabase" 
+    file="/movieDatabase/src/textGenerator/FileCreator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="453" y="131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
   <generalization id="6">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
   </generalization>  
   <generalization id="7">    
     <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="TARGET" refId="5"/>  
   </generalization>  
   <generalization id="8">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
   </generalization>  
   <generalization id="9">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="1"/>  
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
