@@ -5,11 +5,15 @@ public class MovieInfoFactory {
 	public MovieInfo createInfo(String name, String type) {
 		
 		switch(type) {
-		case "actor":
-			return Actor(name);
-		case "director":
-			return Director(name);
-			
+		case "country":
+			return new Country(name);
+		case "genre":
+			return new Genre(name);
+		default:
+			System.out.println("MovieFactory error");
+			return null;
+		}
 	}
+
 
 }

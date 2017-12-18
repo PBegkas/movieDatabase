@@ -9,4 +9,7 @@ public abstract class MovieInfo {
 		movies.add(movie);
 	}
 	
+	public MovieInfo(String n) {
+		name = n;
+	}
 }
