@@ -2,8 +2,11 @@ package dataModel;
 
 import java.util.ArrayList;
 
-public abstract class movieInfo {
+public abstract class MovieInfo {
 	String name;
 	ArrayList<Movie> movies;
+	public void addMovie(Movie movie) {
+		movies.add(movie);
+	}
 	
 }

@@ -3,7 +3,7 @@ package dataModel;
 
 import java.util.ArrayList;
 
-public class Country extends movieInfo{
+public class Country extends MovieInfo{
 	
 	
 

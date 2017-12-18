@@ -1,6 +1,6 @@
 package dataModel;
 
-public class Director extends movieInfo{
+public class Director extends MovieInfo{
 
 	String id;
 
