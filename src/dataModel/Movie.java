@@ -79,4 +79,10 @@ public class Movie {
 	public void fillRatingsList(ArrayList<Double> userRatings) {
 		this.userRatings = userRatings;
 	}
+	public void setTagsSum(int tagsSum) {
+		this.tagsSum = tagsSum;
+	}
+	public void setRatingsNum(int ratingsNum) {
+		this.ratingsNum = ratingsNum;
+	}
 }

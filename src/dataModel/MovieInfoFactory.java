@@ -2,6 +2,10 @@ package dataModel;
 
 public class MovieInfoFactory {
 	
+	public MovieInfoFactory() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public MovieInfo createInfo(String name, String type) {
 		
 		switch(type) {

@@ -2,6 +2,10 @@ package dataModel;
 
 public class PersonFactory {
 	
+	public PersonFactory() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Person createPerson(String n, String id, String type) {
 		
 			switch(type) {
