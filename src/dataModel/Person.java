@@ -16,5 +16,8 @@ public abstract class Person {
 	public void addMovie(Movie movie) {
 		movies.add(movie);
 	}
+	public String getN() {
+		return name;
+	}
 
 }

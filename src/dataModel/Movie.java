@@ -85,4 +85,22 @@ public class Movie {
 	public void setRatingsNum(int ratingsNum) {
 		this.ratingsNum = ratingsNum;
 	}
+	public ArrayList<Actor> getActorList(){
+		return actors;
+	}
+	public Director getDirector(){
+		return director;
+	}
+	public ArrayList<Genre> getGenreList(){
+		return genres;
+	}
+	public Country getCountry() {
+		return country;
+	}
+	public int getID() {
+		return id;
+	}
+	public String getTitle() {
+		return title;
+	}
 }

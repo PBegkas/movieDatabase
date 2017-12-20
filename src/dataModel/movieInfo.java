@@ -12,4 +12,7 @@ public abstract class MovieInfo {
 	public MovieInfo(String n) {
 		name = n;
 	}
+	public String getN() {
+		return name;
+	}
 }
